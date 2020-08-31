@@ -1,13 +1,13 @@
 <template>
   <v-app id="inspire">
     <sidebar />
-    <v-content>
+    <v-main>
       <v-container fluid fill-height>
         <v-layout justify-center>
           <router-view />
         </v-layout>
       </v-container>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 
